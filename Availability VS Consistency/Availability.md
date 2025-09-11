@@ -25,4 +25,4 @@ We usually measure availability in terms of Nines rather than percentages. If th
 
 ### How do we achieve high availability 
 
-To increase availability , we can use redundancy by duplicating or adding additional components(server or storages )
+To increase availability , we can use redundancy by duplicating or adding additional components(server or storages)
