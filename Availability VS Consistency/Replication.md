@@ -11,3 +11,4 @@ However, this type of replication can lead to conflicts if multiple servers upda
 
 ### Master-Slave Replication
 
+In this type of replication, one server is designated as the "master", and handles all write operations, while multiple "slave" servers handle read operations. If the master fails, one of the slave can be promoted as 
