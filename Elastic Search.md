@@ -1,4 +1,4 @@
-
+	
 ## What is elastic search ?
 
 Elastic Search is a distributed search and analytical engine used for storing, searching and analyzing large volumes of data. 
@@ -17,4 +17,6 @@ Elastic search organizes data into documents (in JSON), grouped into indices(lik
 
 Fundamentally, Elastic Search organizes data into documents, which are json based units of information representing entities. 
 
-Documents are grouped into indecies , similar to database, based on their characterstics. 
+Documents are grouped into indecies , similar to database, based on their characterstics.
+
+
