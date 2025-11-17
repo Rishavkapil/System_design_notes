@@ -23,3 +23,4 @@ It happens inside the DB server, using DB specific caching mechanism like:
 * page caching
 
 Database caching is built into the database engine to reduce disk I/O and speed up related queries
+
