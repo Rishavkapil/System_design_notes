@@ -36,3 +36,10 @@ NoSQL is a database  management system approach used to ingest, store and retrie
 Unstructured data is data that doesn't have a predefined data model or consistent organization. In addition, unstructured data such as social media posts, can update and change rapidly while structured data, such as bank transactions, have a much lower rate of change. Examples of unstructured data include pictures, audio files , videos , maps etc. 
 
 
+#### What is a NoSQL Database ?
+
+NoSQL databases are databases that utilize a flexible schema that accommodates unstructured data and semi-structured data while also utilizing a non-tabular data storage method. 
+
+The use of a flexible schema enables NoSQL databases to ingest unstructured data in its native format, which is not possible in SQL database due to the predefind format.
+
+
