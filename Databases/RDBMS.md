@@ -24,3 +24,38 @@ Both masters serve reads and writes and coordinate with each other on writes. If
 ## Sharding
 
 Sharding distributes data across different databases such that each database can only manage a subset of the data. 
+
+Taking a user database as an example, as the number of users increases, more shards are added to the cluster. 
+
+Similar to the advantage of federation, sharding results in less read and write traffic, less replication, and more cache hits. 
+
+
+
+## What is the difference between Database Sharding and Replication ?
+
+**Core Idea**
+
+**Sharding :** Split data across multiple nodes(horizontal partitioning)
+
+**Replication:** Copy data across multiple nodes(redundancy and high availability)
+
+Database Sharding scales horizontally by splitting data. 
+
+Sharding breaks large database into multiple smaller, independent databases(called shards). 
+
+Each shard contains a different subset of data. 
+
+
+## Federation
+
+Federation (or functional partitioning), splits up database by function. For example, instead of a single monolithic database, you could have three databases : forums, users, and products, resulting in less read and write traffic to each database and therefore less replication lag. 
+
+
+It refers to splitting data across multiple independent databases, where each database is autonomous and responsible for a specific domain, but they are logically combined and can be queried as a single system. 
+
+**Why federation exists ?**
+
+Instead of one giant monolithic database, different teams/services manage their own database that fits their domain, improving scalability and independence. 
+
+
+Now you'll getting confused between sharding and federation. Yes, mostly they are same but they differ in how they split the data. 
