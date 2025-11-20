@@ -59,3 +59,6 @@ Instead of one giant monolithic database, different teams/services manage their 
 
 
 Now you'll getting confused between sharding and federation. Yes, mostly they are same but they differ in how they split the data. 
+
+* **Sharding:** Same schema, split by rows/partitions of data. 
+* **Federation:** Different Schema, split by domains/services.
