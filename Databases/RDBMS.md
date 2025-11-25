@@ -62,3 +62,17 @@ Now you'll getting confused between sharding and federation. Yes, mostly they ar
 
 * **Sharding:** Same schema, split by rows/partitions of data. 
 * **Federation:** Different Schema, split by domains/services.
+
+
+## SQL Tuning
+
+SQL tuning is the attempt to diagnose and repair SQL statements that fail to meet a performance standard. 
+
+SQL tuning is the iterative process of improving SQL statement performance to meet specific, measurable and achievable goals. 
+
+SQL tuning simplifies fixing problems in deployed applications. In Contrast, application design sets the security and performance goals before deploying an application. 
+
+* SQL statement becomes a problem when it fails to perform according to predefined and measurable standards.
+*  After you have determined the problem, a typical tuning session has one of the following goals: 
+	* Reduce user response time, which means decreasing the time between user sending a request and receiving a response. 
+	* Improve throughput, which means using the least amount of resources necessary to process all rows accessed by data. 
